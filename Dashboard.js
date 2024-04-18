@@ -1,5 +1,6 @@
 import React from 'react';
 import './Dashboard.css';
+
 const Dashboard = ({ formData, backToForm }) => {
   const storedData = JSON.parse(localStorage.getItem('formData'));
 
