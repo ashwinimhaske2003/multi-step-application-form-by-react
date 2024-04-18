@@ -1,4 +1,3 @@
-// src/components/FormPages/PersonalDetails.js
 import React from 'react';
 import './PersonalDetails.css'; // Import CSS file
 
@@ -12,7 +11,7 @@ const PersonalDetails = ({ formData, setFormData, nextStep }) => {
   };
 
   return (
-    <div className="container"> {/* Apply CSS styles */}
+    <div className="container" style={{ marginTop: '100px' }}> {/* Apply CSS styles */}
       <h2>Personal Details</h2>
       Name:<input type="text" name="name" placeholder="" onChange={handleChange} />
       Age:<input type="number" name="age" placeholder="" onChange={handleChange} /><br></br>
