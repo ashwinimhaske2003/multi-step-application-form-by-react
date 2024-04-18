@@ -11,7 +11,7 @@ const EducationalDetails = ({ formData, setFormData, nextStep, prevStep }) => {
   };
 
   return (
-    <div className="container"> {/* Apply CSS styles */}
+    <div className="container" style={{ marginTop: '100px' }}> 
       <h2>Educational Details</h2>
       SSC Marks: <input type="number" name="sscMarks"  onChange={handleChange} />
       SSc passing year: <input type="number" name="sscPassingYear"  onChange={handleChange} />
