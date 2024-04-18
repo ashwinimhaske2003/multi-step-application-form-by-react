@@ -8,7 +8,7 @@ const AddressDetails = ({ formData, setFormData, nextStep, prevStep }) => {
   };
 
   return (
-    <div className="container"> {/* Apply container class */}
+    <div className="container" style={{ marginTop: '100px' }}> {/* Apply container class */}
       <h2>Address Details</h2>
       Current Address: <input type="text" name="currentAddress"  onChange={handleChange} />
       Permanent Address: <input type="text" name="permanentAddress"  onChange={handleChange} />
